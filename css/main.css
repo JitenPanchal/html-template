@@ -5,7 +5,10 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
   }
+
   
   /*
    * Typography
@@ -37,6 +40,9 @@ body {
   .sidebar {
     padding-left: 0;
     padding-right: 0;
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
   }
   
   .sidebar .nav {
@@ -69,3 +75,17 @@ body {
     padding-bottom: 1.5rem;
   }
   
+
+  .navbar{
+    background-color: #3c8dbc;
+  }
+
+  .nav-link
+  {
+    color: #b8c7ce;
+  }
+  
+  .nav-link a:hover
+  {
+    color: #b8c7ce !important;
+  }
