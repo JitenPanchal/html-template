@@ -1,0 +1,19 @@
+[
+    {
+        "text":"Administration", 
+        "items": [
+            { "text":"Users", "parentText": "Administration > Users" },
+            { "text":"Roles", "parentText": "Administration > Roles" },
+            { "text":"Regions", "parentText": "Administration > Regions" },
+            { "text":"Countries", "parentText": "Administration > Countries" },
+            { "text":"Sources", "parentText": "Administration > Sources" }
+        ]
+    },
+    {
+        "text":"Caseflow", 
+        "items": [
+            { "text":"Unmatched", "parentText": "Caseflow > Unmatched" },
+            { "text":"Matched", "parentText": "Caseflow > Matched" }
+        ]
+    }
+]

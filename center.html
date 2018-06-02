@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+ #parent {
+     height: 100%;
+     width: 100%;
+     border: 1px solid red;
+     position: fixed;
+ }
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.center { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+            <h2>Centering</h2>
+            <p>In this example, we use positioning and the transform property to vertically and horizontally center the div element:</p>
+            
+            <div class="center">
+              <p>I am vertically and horizontally centered.</p>
+            </div>
+    </div>
+</body>
+
+</html>
