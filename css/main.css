@@ -19,7 +19,7 @@
   
   .sidebar {
     position: fixed;
-    top: 51px;
+    top: 59.55px;
     bottom: 0;
     left: 0;
     z-index: 1000;
@@ -108,4 +108,6 @@
     border-radius: 0px !important;
   }
 
-  
+  .content {
+    top: 59.55px;
+  }
