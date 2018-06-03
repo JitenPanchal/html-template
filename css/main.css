@@ -67,19 +67,19 @@
   }
   
 
-  .navbar{
+  .header{
     background-color: #3c8dbc;
   }
 
-  .nav-link
+  .brand
   {
-    color: #b8c7ce;
+    color: white;
+    font-size: 25px !important;
   }
   
   
   a:hover
   {
-    color: #b8c7ce;
     color: white;
   }
 
@@ -88,9 +88,7 @@
     border-radius:0mm !important;
   }
 
-  .top-bar {
-    font-size: 20px !important;
-  }
+ 
 
   .side-bar-search-box {
     border-radius:0mm !important;
